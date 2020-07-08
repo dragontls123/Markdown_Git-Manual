@@ -38,3 +38,102 @@
 
 ### 1.2. add
 
+add 전 상황
+
+```bash
+On branch master
+
+No commits yet
+#트랙킹 되지 않는 파일들
+# => 새로 생성된 파일이고 , git으로 관리 중이지 않은 파일
+Untracked files:
+	#git add 파일
+	#커밋이 될 것들을 포함시키기 위해서 위의 명령어를 써라
+  (use "git add <file>..." to include in what will be committed)
+        Git.md
+        markdown-images/
+        markdown.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+```
+
+```bash
+$ git add .
+$ git status
+On branch master
+
+No commits yet
+# 커밋될 변경사항들
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Git.md
+        new file:   markdown-images/1_xLCB49Yp90nL8eKn-fICLQ-1594185189020.png
+        new file:   markdown-images/1_xLCB49Yp90nL8eKn-fICLQ.png
+        new file:   markdown.md
+
+
+```
+
+* add 명령어는 아래와 같이 활용된다.
+
+```bash
+$ git add . #현재 디렉토리 전부
+$ git add git.md markdown.md # 특정 파일
+$ git add markdwon-images/ # 특정 디렉토리
+```
+
+### 1.3. commit
+
+> 이력을 확정 짓는 명령어
+
+```bash
+$ git commit -m '커밋메세지'
+[master (root-commit) ef71602] init
+ 4 files changed, 140 insertions(+)
+ create mode 100644 Git.md
+ create mode 100644 markdown-images/1_xLCB49Yp90nL8eKn-fICLQ-1594185189020.png
+ create mode 100644 markdown-images/1_xLCB49Yp90nL8eKn-fICLQ.png
+ create mode 100644 markdown.md
+
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+
+```
+
+### log
+
+> 커밋 내역들을 확인할 수 있는 명령어
+
+```bash
+$ git log
+Author: dragontls123 <dragontls123@gmail.com>
+Date:   Wed Jul 8 14:42:17 2020 +0900
+
+    init
+
+
+#최근 n개 이력
+$ git log -1
+Author: dragontls123 <dragontls123@gmail.com>
+Date:   Wed Jul 8 14:42:17 2020 +0900
+
+    init
+
+
+#간략한 표현
+$ git log --oneline
+ef71602 (HEAD -> master) init
+
+
+#최근 n개 이력을 간략하게
+$ git log --oneline -1
+ef71602 (HEAD -> master) init
+
+
+```
+
+
+
