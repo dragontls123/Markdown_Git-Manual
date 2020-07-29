@@ -9,8 +9,8 @@
 * 최초에 컴퓨터에서  git을 사용하는 경우 아래의 설정을 진행한다.
 
   ```bash
-  $ git config --global user.email 이메일주소
-  $ git config --global user.name 유저네임
+  $ git config --global user.email dragontls123@gmail.com
+  $ git config --global user.name dragontls123
   # 확인
   $ git config --global -l
   
