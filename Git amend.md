@@ -1,6 +1,6 @@
-# Git
+# Git amend
 
-> amend를 통해 commit 날짜 바꾸기
+> amend를 통해 마지막 commit 날짜 바꾸기
 >
 > 기존에 존재하고 있는 repository에서 만들기
 
@@ -58,7 +58,7 @@ To https://github.com/dragontls123/algorithm.git
 
 > 주소가 뒤틀려서 안될 경우가 생긴다
 >
-> 
+> git push origin master로 push를 했을 때 오류가 생기면 아래 소스 코드를 치면 된다.
 >
 > * git remote add origin 원하는 repository의 주소
 > * git push -u origin master
@@ -69,6 +69,8 @@ $ git push -u origin master
 ```
 
 주소를 맞춰주면 잘 된다
+
+같은 repository에서 나중에 amend를 할 일이 생겨도 위의 방법으로 한번만 주소를 맞추어 두면 그 다음부터는 remote add를 하지 않고 git push origin master만 해도 된다.
 
 잔디밭도 변경된 날짜에 심어진다.
 
