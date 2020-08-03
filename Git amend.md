@@ -2,7 +2,7 @@
 
 > amend를 통해 마지막 commit 날짜 바꾸기
 >
-> 기존에 존재하고 있는 repository에서 만들기
+> 기존에 존재하고 있는 repository에서 git bash 실행
 
 ## 1. add & commit
 
