@@ -75,3 +75,5 @@ $ git push -u origin master
 잔디밭도 변경된 날짜에 심어진다.
 
 repository 생성 이전으로도 commit이 가능하다
+
+github에서 보면 update날짜는 amend한 날짜가 아닌 commit을 날린 현재로 기록이 된다.
