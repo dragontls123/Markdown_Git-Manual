@@ -72,3 +72,4 @@ $ git push -u origin master
 
 잔디밭도 변경된 날짜에 심어진다.
 
+repository 생성 이전으로도 commit이 가능하다
