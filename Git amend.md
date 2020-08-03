@@ -24,8 +24,8 @@
 
 ## 2. amend & push
 
-* git commit --amend --no-edit --date "원하는 날자"
-* git push origin master
+* `git commit --amend --no-edit --date "원하는 날자"`
+* `git push origin master`
 
 ```bash
 $ git commit --amend --no-edit --date "31 July 2020 09:00:00 KST"
@@ -58,10 +58,10 @@ To https://github.com/dragontls123/algorithm.git
 
 > 주소가 뒤틀려서 안될 경우가 생긴다
 >
-> git push origin master로 push를 했을 때 오류가 생기면 아래 소스 코드를 치면 된다.
+> `git push origin master`로 push를 했을 때 오류가 생기면 아래 소스 코드를 치면 된다.
 >
-> * git remote add origin 원하는 repository의 주소
-> * git push -u origin master
+> * `git remote add origin 원하는 repository의 주소`
+> * `git push -u origin master`
 
 ```bash
 $ git remote add origin https://github.com/dragontls123/c.git
