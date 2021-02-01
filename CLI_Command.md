@@ -61,7 +61,7 @@ Command Line Interface
 
 
 
-## (9) cp -r [폴더명] [위치]
+## (9) `cp -r [폴더명] [위치]`
 
 - 폴더를 복사
 
